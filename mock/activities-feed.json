@@ -1,0 +1,92 @@
+{
+    "activities-feed": [
+        {
+            "id": 100,
+            "user": {
+                "id": 12,
+                "name": "Harry"
+            },
+            "type": "Bike",
+            "date": "2022-11-12T08:45:00",
+            "location": "Gramado, Rio Grande do Sul",
+            "title": "Morning Ride",
+            "description": "Today we ride against the wind =/",
+            "distance": {
+                "value": 48.52,
+                "unit": "km"
+            },
+            "elevation": {
+                "value": 650,
+                "unit": "m"
+            },
+            "duration": "PT2H35M"
+        },
+        {
+            "id": 101,
+            "user": {
+                "id": 13,
+                "name": "Hermione"
+            },
+            "type": "Bike",
+            "date": "2022-11-12T07:01:00",
+            "location": "Canela, Rio Grande do Sul",
+            "title": "Morning Mountain Bike Ride",
+            "description": "",
+            "distance": {
+                "value": 31.60,
+                "unit": "km"
+            },
+            "elevation": {
+                "value": 420,
+                "unit": "m"
+            },
+            "duration": "PT2H02M"
+        },
+        {
+            "id": 102,
+            "user": {
+                "id": 14,
+                "name": "Ron"
+            },
+            "type": "Run",
+            "date": "2022-11-10T17:30:00",
+            "location": "Canela, Rio Grande do Sul",
+            "title": "Evening Run",
+            "description": "",
+            "distance": {
+                "value": 10.22,
+                "unit": "km"
+            },
+            "pace": {
+                "value": "PT5M39S",
+                "unit": "km"
+            },
+            "duration": "PT57M45S"
+        },
+        {
+            "id": 103,
+            "user": {
+                "id": 13,
+                "name": "Hermione"
+            },
+            "type": "Weight Training",
+            "date": "2022-11-08T14:15:00",
+            "location": "Canela, Rio Grande do Sul",
+            "title": "Afternoon Weight Training",
+            "description": "",
+            "distance": {
+                "value": 0,
+                "unit": "km"
+            },
+            "calories": {
+                "value": "542",
+                "unit": "Kcal"
+            },
+            "heartRate": {
+                "value": "105",
+                "unit": "bpm"
+            },
+            "duration": "PT1H33M"
+        }
+    ]
+}

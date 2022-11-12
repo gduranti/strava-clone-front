@@ -1,0 +1,60 @@
+<div class="feed">
+
+    <div class="activities">
+
+        <h5 class="section-title">Activities</h5>
+
+        <div class="activity" *ngFor="let activity of activities">
+
+            <div class="card">
+
+                <div class="card-header">
+                    <div class="">
+                        {{ activity.user.name }}
+                    </div>
+
+                    <div class="">
+                        {{ activity.date }}
+                    </div>
+
+                    <div class="">
+                        {{ activity.location }}
+                    </div>
+
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title"> {{ activity.title }} </h5>
+                    <p class="card-text"> {{ activity.description }} </p>
+
+
+                    <div class="" [ngSwitch]="activity.type">
+
+                        <div class="" *ngSwitchCase="'Bike'">
+                            <div class="">
+                                {{ activity.distance.value }}
+                            </div>
+                            <div class="">
+                                {{ activity.elevation.value }}
+                            </div>
+                            <div class="">
+                                {{ activity.duration }}
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- <a class="text-decoration-none" [routerLink]="['/produto-detalhe', produto.id]">
+                        <div style="align-content:center;">
+                            <img src="/assets/{{ produto.imagem }}" height="164px" width="253px" alt="">
+                        </div>
+                    </a> -->
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
